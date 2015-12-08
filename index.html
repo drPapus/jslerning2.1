@@ -7,15 +7,21 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <div>
-        <form name="forma1">
-            <h1>Прямоугольник</h1>
-            Длинна <input type="text" name="t1" size="10"><br>
-            Ширина <input type="text" name="t2" size="10"><br>
-            <input type="button" name="button" value="Вычеслить" onClick="areaRectangle(forma1);"><br>
-            Площадь равна <input type="text" name="res" size="10">
-        </form>
-    </div>
+
+        <table>
+            <tr>
+                <td>
+                    <div id="red" onClick="message('Вы щелкнули по красному квадратику');"></div>
+                </td>
+                <td>
+                    <div id="green" onClick="message('Вы щелкнули по зеленому квадратику');"></div>
+                </td>
+                <td>
+                    <div id="blue" onClick="message('Вы щелкнули по синему квадратику');"></div>
+                </td>
+            </tr>
+        </table>
+
 
 
 
